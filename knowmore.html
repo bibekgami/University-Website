@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="home.css">
+    <style>
+    *{
+        padding: 0px;
+        margin: 0px;
+      }
+      body,
+      html {
+        font-family: Roboto, sans-serif, arial;
+        background: white;
+      }
+      .width-100 {
+        width: 100%;
+        float: left;
+      }
+      .container {
+        width: 100%;
+        margin: 0px auto;
+      }
+      .news-list {
+        background: skyblue;
+        padding: 6px;
+        font-size: 20px;
+      }
+      .img_section {
+        width: 100;
+        background-image: url(img/know.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 55vh;
+        position: relative;
+      }
+      #box img {
+        width: 100%;
+        height: 100%;
+      }
+      #box{
+        z-index: 3;
+      }
+
+   .text-box h1{
+    font-size: 39px;
+    padding-top: 10px;
+   } 
+   .text-box{
+        width: 100%;
+        color: whitesmoke;
+        position: center;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+      }
+
+
+      /* quickfacts */
+   .placement{
+        margin: auto;
+        text-align: center;
+        padding-top: 70px;
+      }
+      .placement p{
+        text-align: center;
+        padding-top: 30px;
+      }
+      .row1{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        background-color: orange;
+      }
+      @media(max-width:700px){
+        .row1{
+          flex-direction: column;
+        }
+      }
+
+
+      .overviews{
+        margin: auto;
+        text-align: center;
+        padding-top: 70px;
+      }
+      .overviews p{
+        text-align: center;
+        padding-top:30px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      .row2{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        background-color: whitesmoke;
+        text-align: center;
+      }
+      .mission p{
+        text-align: start;
+      }
+
+      @media(max-width:700px){
+        .row2{
+          flex-direction: column;
+        }
+      }
+
+
+      /* enviroment */
+
+      .enviroment{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .enviroment img{
+        width: 100%;
+      }
+      .enviroment h1{
+        text-align: center;
+        background-color: rgba(42, 231, 42, 0.744);
+        margin-left: 30px;
+        margin-right: 15px;
+      }
+      .enviroment p{
+        background-color: rgba(42, 231, 42, 0.744);
+        margin-left: 30px;
+        margin-top: 40px;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-right: 15px;
+      }
+      @media(max-width:700px){
+        .enviroment{
+          flex-direction: column;
+        }
+      }
+
+
+      /* Quicklinks */
+
+      .last{
+  background-color: red;
+}
+.last h1{
+  text-align: center;
+  padding-top: 55px;
+}
+.heading{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  padding: 50px 0px;
+}
+.heading h2{
+  margin-left:20px;
+  margin-right: 20px;
+}
+.heading li{
+  color: #fff;
+  line-height: 2.5;
+  font-size: 15px;
+  list-style: none;
+}
+.heading li a{
+  color: #fff;
+  line-height: 2.5;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.get-in-touch{
+  list-style: none;
+  padding-left: 10px;
+}
+.get-in-touch li i{
+  color: yellow;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.get-in-touch li{
+  color: #fff;
+  line-height: 2.5;
+  font-size: 15px;
+}
+
+
+/* footer */
+.foot footer{
+  width:100%;
+  bottom: 0;
+  color: black;
+  background-color: orange;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+   </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo_link"><img src="img/logo2.jpg" width="100%" height="100%"/></a>
+            <div class="nav-links">
+              <ul >
+                <li><a href="project.html">HOME</a></li>
+                <li><a href="About_us.html" >ABOUT US</a></li>
+                <li><a href="academics.html">ACADEMICS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="admission.html">ADMISSION</a></li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <!-- main image -->
+    <section class="img_section">
+        <div class="width-100 top-header">
+            <div class="container">
+              <div class="width-100">
+              </div>
+            </div>
+          </div>
+          <div class="text-box">
+            <h1>Presidency University</h1>
+          </div>
+        </section>
+
+
+        <!-- quick facts -->
+        <section class="placement">
+            <h1>Quick Facts</h1>
+            <p>With the strong industry connect and comprehensive student preparedness initiatives, we curate happy careers for the Presidency University Vertos.</p>
+            <div class="row1">
+  
+            <div class="World_Class">
+              <h2>30</h2>
+            
+              <p>World Class Campuses</p>
+            </div>
+  
+            <div class="Faculty">
+              <h2>3,000+</h2>
+            
+              <p>Faculty & Researchers</p>
+            </div>
+  
+            <div class="">
+              <h2>40,000+</h2>
+              <p>Students in Presidency university</p>
+            </div>
+  
+            <div class="">
+              <h2>18</h2>
+              <p>Sports Complexes with
+                <br>Swimming Pools</p>
+            </div>
+
+            <div class="">
+                <h2>30</h2>
+                <p>Food Courts</p>
+              </div>
+
+              <div class="">
+                <h2>36</h2>
+                <p>Sq. km. Academic
+                    <br>Township</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Overview -->
+          <section class="overviews">
+            <h1>Over View</h1>
+            <p>Presidency university, a household 
+                name in the education sector, has become a sought-after destination
+                in Nepal for professional studies. It is admired all over for the quality 
+                of its academic courses, its community outreach work and as a university of 
+                compassion and humanitarianism. It has become a case study because no other 
+                educational institution in Nepal has grown in its scope and scale as much
+                as Presidency has in a short span of 25 years. Its incredible transformation is
+                truly a journey from Soil to Silver.</p>
+
+                <p>One would find it difficult to imagine that such a celebrated institution 
+                with a global reputation was established by an unassuming humble being, Dr 
+                Bibek Gami, the Founder Presidency, who started the institute with 
+                all of Rs 5000 as the initial investment. He had big dreams and a passion to make a 
+                difference. Dr Aashish started KIIT in two rented rooms with 12 students and 2 staff. 
+                The modest institution has now grown to incomprehensible propositions and is spread over 
+                a vast 36-square-kilometre academic township. Its 25 lush green campuses employ over 3000 
+                eminent faculty and researchers and 15000 staff. Presidency is a family of over
+                 a lakh people. The campus houses a 2600-bedded super speciality hospital, KIMS, a multi-storey 
+                 central library, a central research facility, a 22-storey research and innovation wing, 
+                 auditoriums - the largest one with 5000 seating capacity, 18 sports complexes, many international 
+                 standard stadiums covering all sports, 30 food courts, and a rose garden. The institution 
+                 takes pride in being the greenest campus in Nepal.</p>
+
+
+                 <div class="row2">
+                <div class="vision">
+                  <h2>Vision</h2>
+                  <p>” To create an advanced centre of professional learning of international standing where 
+                    <br>pursuit of knowledge and excellence shall reign supreme, unfettered by the barriers of nationality,
+                     language, cultural plurality and religion. “</p>
+                </div>
+
+                <div class="mission">
+                  <h2>Mission</h2>
+                  <p>Imparting value based quality education of international standard and imbibing skill for solving real life problems.</p>
+                  <p>Inculcating global perspective in attitude.</p>
+                  <p>Creating leadership qualities with futuristic vision.</p>
+                  <p>Instilling habit of continual learning.</p>
+                  <p>Establishing and promoting close interaction with industries and other utility sectors and keeping abreast with state-of-
+                    the-art technology.</p>
+
+                </div>
+                 </div>
+          </section>
+
+          <!-- Enviroment -->
+          <section class="enviroment">
+            <div class="">
+              <img src="img/greenknow.jpg" alt="">
+            </div>
+            <div class="green">
+            <h1>Presidency Green</h1>
+            <p>Presidency Green is a bold initiative of Presidency to control environmental pollution 
+              and to create a healthy ambiance in and around 25 sq. km. area in which 
+              different campuses of Presidency are located. <br> <br>
+              The University has drawn ambitious plan to make Presidency campus totally vehicle 
+              free. In the first phase, use of two-wheelers, both by students and staffs, 
+              has been prohibited, after putting in place an effective alternative transport 
+              arrangement. Presidency has also implemented paperless administration. Green Audit of the campus is done annually.
+              <br> <br> Besides mass plantation and limiting vehicular pollution other 
+              environmentally friendly initiatives under Presidency Green are rainwater harvesting 
+              and water management, sewerage treatment, bio-gas, solar energy, etc.</p>
+              </div>
+          </section>
+
+
+          <!-- last section -->
+          <section class="last">
+            <h1>Usefull Links</h1>
+            <div class="row">
+              <div class="heading">
+                <h2>Quick Links</h2>
+                <ul class="quicklink">
+                  <li><a href="project.html">Home</a></li>
+                  <li><a href="About_us.html">About Us</a></li>
+                  <li><a href="academics.html">ACADEMICS</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="heading">
+                <h2>Faculty & Staff</h2>
+                <ul class="quicklink">
+                  <li><a href="#">Curricula</a></li>
+                  <li><a href="#">Calendra</a></li>
+                  <li><a href="#">Academic</a></li>
+                  <li><a href="#">Faculty & Staff Portal</a></li>
+                  <li><a href="#">Information for Visiting faculty</a></li>
+                  <li><a href="#">WorkFlow Portal</a></li>
+                </ul>
+              </div>
+              <div class="heading">
+              <h2>Student Section</h2>
+                  <ul class="quicklink">
+                    <li><a href="#">Result</a></li>
+                    <li><a href="#">pay fee</a></li>
+                    <li><a href="#">Training</a></li>
+                    <li><a href="#">placement</a></li>
+                    <li><a href="#">Scholarship & Assistance</a></li>
+                    <li><a href="#">Research program</a></li>
+                  </ul>
+                </div>
+                <div class="heading">
+                <h2>Get In Touch</h2>
+                <ul class="get-in-touch">
+                  <li> <a href=""><i class="ri-mail-line"></i></a>E-MAIL:<a href="#">Presidency@gmail.com</a></li>
+                  <li> <a href=""><i class="ri-whatsapp-line"></i></a>WHATS-APP:<a href="#">+977 9869999925</a></li>
+                  <li> <a href=""><i class="ri-contacts-line"></i></a>CONTACT NO:<a href="#">+91 8667030751</a></li>
+                  <li> <a href=""><i class="ri-pages-line"></i></a>WEBSITE:<a href="#">https://www.Presidency.com</a></li>
+                  <li> <a href=""><i class="ri-instagram-line"></i></a>INSTAGRAM:<a href="#">www.instagram.com</a></li>
+                  <li> <a href=""><i class="ri-facebook-box-line"></i></a>FACEBOOK:<a href="#">www.facebook.com</a></li>
+                </ul>
+              </div>
+              </div>
+            </div>
+          
+          </section>
+          
+          <!-- FOOTER -->
+            <section class="foot">
+              <footer>
+              Copyright © 2024 Presidency Institute of Industrial Technology | koteshwor | Kathmandu
+              </footer> 
+            </section>
+</body>
+</html>

@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  body,
+  html {
+    font-family: Roboto, sans-serif, arial;
+    background: white;
+  }
+  .width-100 {
+    width: 100%;
+    float: left;
+  }
+  .container {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .news-list {
+    background: skyblue;
+    padding: 6px;
+    font-size: 20px;
+  }
+  .img_section {
+    width: 100;
+    background-image: url(img/blog.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 63vh;
+    position: relative;
+  }
+  #box img {
+    width: 100%;
+    height: 100%;
+  }
+  #box{
+    z-index: 3;
+  }
+
+  .text-box{
+    width: 100%;
+    color: white;
+    position: center;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+  }
+.text-box h1{
+font-size: 40px;
+padding-top: 20px;
+} 
+
+
+
+
+#blog-container .post:hover img{
+    transform: scale(1.3) rotate(-10deg);
+    opacity: 0.8;
+  }
+  #blog-container .post img
+  {
+    transition: 0.3s ease;
+  }
+  #blog-container .post .post-img
+  {
+    overflow: hidden;
+    cursor: pointer;
+  }
+  #blog-container .post:hover h3
+  {
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+  #blog-container .post:hover h3
+  {
+  color: coral;
+  }
+
+
+
+  /* usefull links */
+
+
+.last{
+    background: rgb(63, 54, 66);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 158, 80, 0.782) 0%,
+    rgba(209, 136, 47, 0.842) 31%,
+    rgba(214, 174, 106, 0.908) 80%,
+    rgba(157, 81, 34, 0.601) 100%,
+    rgba(237, 186, 96, 1) 100%
+  );
+  }
+  .last h1{
+    text-align: center;
+    padding-top: 55px;
+  }
+  .heading{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    padding: 50px 0px;
+  }
+  .heading h2{
+    margin-left:20px;
+    margin-right: 20px;
+  }
+  .heading li{
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    list-style: none;
+  }
+  .heading li a{
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .get-in-touch{
+    list-style: none;
+    padding-left: 10px;
+  }
+  .get-in-touch li i{
+    color: yellow;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  .get-in-touch li{
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+  }
+  
+  
+  /* footer */
+  .foot footer{
+    width:100%;
+    bottom: 0;
+    color: black;
+    background-color: orange;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+  }

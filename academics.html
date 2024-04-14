@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="home.css">
+    <style>
+        *{
+        padding: 0px;
+        margin: 0px;
+      }
+      body,
+      html {
+        font-family: Roboto, sans-serif, arial;
+        background: white;
+      }
+      .width-100 {
+        width: 100%;
+        float: left;
+      }
+      .container {
+        width: 100%;
+        margin: 0px auto;
+      }
+      .news-list {
+        background: skyblue;
+        padding: 6px;
+        font-size: 20px;
+      }
+      .img_section {
+        width: 100;
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 70vh;
+        position: relative;
+      }
+      #box img {
+        width: 100%;
+        height: 100%;
+      }
+      #box{
+        z-index: 3;
+      }
+
+      .text-box{
+        width: 100%;
+        color: white;
+        position: center;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+      }
+   .text-box h1{
+    font-size: 40px;
+    padding-top: 20px;
+   }
+
+   /* academics  titel */
+   .academic{
+    text-align: center;
+    background-color: orange;
+    margin-top: 30px;
+   }
+       
+   .academic p{
+    margin-top: 40px;
+    margin-right: 60px;
+    font-size: 20px;
+   }
+   .academ{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 128, 0, 0.664);
+        margin-bottom: 40px;
+      }
+      .academ img{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 100%;
+      }
+
+      .academ1 p{
+        font-size: 20px;
+        margin-right: 20px;
+        font-size: 27px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 120px;
+      }
+
+      @media(max-width:700px){
+        .academ{
+          flex-direction: column;
+        }
+      }
+
+      .academ2{
+        margin: auto;
+        text-align: center;
+        padding-top: 10px;
+      }
+      .academ2 p{
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .row1{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 200px;
+        margin-right: 200px;
+      }
+       .academ2 h2{
+        color: skyblue;
+        font-size: 50px;
+        text-align: center;
+      }
+      @media(max-width:700px){
+        .row1{
+          flex-direction: column;
+        }
+      }
+
+
+      .img_section {
+      margin-top: 70px;
+    width: 100;
+    background-image: url(img/academmain.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 65vh;
+    position: relative;
+  }
+
+  .text_box{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+  }
+  .text_box p{
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 19px;
+
+  }
+      
+      @media(max-width:700px){
+        .enviroment{
+          flex-direction: column;
+        }
+      }
+
+
+
+      /* Undergradute */
+
+
+      .Undergraduate{
+        margin: auto;
+        text-align: center;
+        padding-top: 60px;
+        
+      }
+      .Undergraduate img{
+        width: 40%;
+        margin-left: 100px;
+
+      }
+      .Undergraduate p{
+        padding-top: 30px;
+        margin-left: 100px;
+      text-align: center;
+
+      }
+
+      .Undergraduate a{
+        color: rgb(1, 183, 255);
+        margin: 10px;
+      }
+      .row3{
+        margin-top: 2%;
+        display: inline-table;
+        justify-content: space-between;
+      }
+      @media(max-width:700px){
+        .row3{
+          flex-direction: column;
+        }
+      }
+
+      /* faculty */
+
+      .faculty{
+        text-align: center;
+        margin-top: 60px;
+      }
+      .faculty p{
+        margin-top: 30px;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+
+
+      .faprofile{
+        margin: auto;
+        text-align: center;
+        padding-top: 70px;
+        background-color: whitesmoke;
+      }
+      .faprofile p{
+        text-align: left;
+        padding-top: 30px;
+        
+       
+      }
+      .faprofile a{
+        color: #06bda7;
+        margin: 10px;
+      }
+      .row4{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+        background-color: whitesmoke;
+      }
+      @media(max-width:700px){
+        .row4{
+          flex-direction: column;
+        }
+      }
+
+
+
+      /* usefull links */
+.last{
+  background-color: grey;
+}
+.last h1{
+  text-align: center;
+  padding-top: 40px;
+}
+.heading{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  padding: 50px 0px;
+}
+.heading h2{
+  margin-left:20px;
+  margin-right: 20px;
+}
+.heading li{
+  color: #fff;
+  line-height: 2.5;
+  font-size: 15px;
+  list-style: none;
+}
+.heading li a{
+  color: #fff;
+  line-height: 2.5;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.get-in-touch{
+  list-style: none;
+  padding-left: 10px;
+}
+.get-in-touch li i{
+  color: yellow;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.get-in-touch li{
+  color: #fff;
+  line-height: 2.5;
+  font-size: 15px;
+}
+
+
+/* footer */
+.foot footer{
+  width:100%;
+  bottom: 0;
+  color: black;
+  background-color: orange;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+
+
+    </style>
+</head>
+<body>
+  <header>
+    <nav>
+        <a href="index.html" class="logo_link"><img src="img/logo2.jpg" width="100%" height="100%"/></a>
+        <div class="nav-links">
+          <ul >
+            <li><a href="project.html">HOME</a></li>
+            <li><a href="About_us.html" >ABOUT US</a></li>
+            <li><a href="academics.html">ACADEMICS</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="admission.html">ADMISSION</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+
+      <section class="academic">
+        <h1>PERSIDENCY ACADEMICS</h1>
+        <p>Presidency is unique among its peer institutions in having Twenty Eight schools co-located 
+          on one <br> contiguous campus, and all of them possess exceptional breadth and depth of excellence. 
+          This <br> naturally facilitates multidisciplinary collaboration.</p>
+
+        </section>
+
+        <section class="academ">
+          <div class="">
+            <img src="img/academ.jpg" alt="">
+          </div>
+          <div class="academ1">
+            <p>Presidency is a private academic institution dedicated to providing educational 
+            opportunities for the intellectual, social, and professional development of a diverse student 
+            population. To achieve this purpose, the institution offers focused and balanced curricula at 
+            Undergraduate, Master’s and Doctoral levels. A broad-based core curriculum is offered, promoting 
+            critical thinking, effective verbal and written communication, and skills for life-long learning. 
+            Presidency’S approach to higher education and the resulting varied academic experiences provide students 
+            with the intellectual acumen and pragmatic approach necessary to create the foundation for personal 
+            and professional fulfillment.</p>
+          </div>
+        </section>
+
+
+
+        <section class="academ2">
+          <div class="row1">
+          <div>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="currentColor"><path d="M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM20 17H24V19H20V17ZM17 12H24V14H17V12ZM19 7H24V9H19V7Z"></path></svg></a>
+            <h2>3000+</h1>
+              <p>Faculty</p>
+          </div>
+
+          <div>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="currentColor"><path d="M13 21V23.5L10 21.5L7 23.5V21H6.5C4.567 21 3 19.433 3 17.5V5C3 3.34315 4.34315 2 6 2H20C20.5523 2 21 2.44772 21 3V20C21 20.5523 20.5523 21 20 21H13ZM7 19V17H13V19H19V16H6.5C5.67157 16 5 16.6716 5 17.5C5 18.3284 5.67157 19 6.5 19H7ZM7 5V7H9V5H7ZM7 8V10H9V8H7ZM7 11V13H9V11H7Z"></path></svg></a>
+            <h2>200+</h2>
+            <p>Academic Programmes</p>
+          </div>
+
+          <div>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="currentColor"><path d="M7 2V22H3V2H7ZM9 2H19.0049C20.1068 2 21 2.89821 21 3.9908V20.0092C21 21.1087 20.1074 22 19.0049 22H9V2ZM22 6H24V10H22V6ZM22 12H24V16H22V12ZM15 12C16.1046 12 17 11.1046 17 10C17 8.89543 16.1046 8 15 8C13.8954 8 13 8.89543 13 10C13 11.1046 13.8954 12 15 12ZM12 16H18C18 14.3431 16.6569 13 15 13C13.3431 13 12 14.3431 12 16Z"></path></svg></a>
+            <h2>40000+</h2>
+            <p>Students</p>
+          </div>
+          </div>
+        </section>
+
+
+        <section class="img_section">
+         <div class="text_box">
+        <div>
+          <p>Presidency attempts to provide a comprehensive education 
+            that instills within its students a philosophy that
+             values not only learning and professionalism, but also 
+             contribution and commitment to the advancement of community.</p>
+        </div>
+
+        <div>
+          <p>Presidency provides a learning environment that helps students 
+            identify goals and the means to achieve them. With this 
+            philosophy in mind, students learn by interacting with a 
+            community of faculty, staff, and Industry dedicated to Presidency’s 
+            academic purpose.</p>
+        </div>
+        </div>
+        </section>
+
+
+        <!-- Undergraduate -->
+
+        
+        <section class="Undergraduate">
+          <h1>Presidency Undergraduate Programs</h1>
+          <div class="row3">
+            
+
+            <div>
+              <p><a href=""><i class="ri-add-box-fill"></i></a>B.Tech(4 Years)</p>
+              <p><a href=""><i class="ri-add-box-fill"></i></a>Biotechnology-Dual Degree (B.Tech & M.Teech)(5 Years)</p>
+              <p><a href=""><i class="ri-add-box-fill"></i></a>B.Sc Nursing (4 Years)</p>
+              <p><a href=""><i class="ri-add-box-fill"></i></a>BA LLB/BBA LLB/B.Sc LLB(5 Years)</p>
+              <P><a href=""><i class="ri-add-box-fill"></i></a>BBA (3 Years)</P>
+              <p><a href=""><i class="ri-add-box-fill"></i></a>BCA (3 Years)</p>
+              <p><a href=""><i class="ri-add-box-fill"></i></a>Bachelor of Design (fashion/Textile)(4Years)</p>
+              <p><a href=""><i class="ri-add-box-fill"></i></a>Bachelor in Flim and Television Production (3 Years)</p>
+              <p><a href=""><i class="ri-add-box-fill"></i></a>Bachelor of Architecture(5 Years)</p>
+            </div>
+
+            <div>
+              <img src="img/undergradatue.jpg" alt="">
+            </div>
+
+          </div>
+        </section>
+
+
+        <!-- faculty -->
+        <section class="faculty">
+          <h1>Intellectual Capital</h1>
+          <p>More than 2500 academic and research staff, many leaders in their fields with 
+            international reputations provide stimulating learning environment and excellent 
+            standards of teaching. Even though it is a self-financing institution, Presidency is a 
+            well structured and decentralized organization. It is the only self-financing 
+            institution in the country where top functionaries, including Chancellor and Vice 
+            Chancellor are renowned academicians. The quality is amply demonstrated by the 
+            patents held by various faculty members, the research grants coming from various 
+            agencies both in Nepal and abroad, national and international conferences, 
+            symposiums and workshops held here and hundred percent placement records.</p>
+        </section>
+
+        <section class="faprofile">
+          <h1>Presidency Faculty Profile of Individual Schools</h1>
+          <div class="row4">
+
+            <div>
+              <p> <a href=""><i class="ri-computer-fill"></i></a>School of computer Application</p>
+              <p><a href=""><i class="ri-calculator-fill"></i></a>School of Civil Engineering</p>
+              <p><a href=""><i class="ri-computer-fill"></i></a>School of Computer Engineering</p>
+              <p><a href=""><i class="ri-lightbulb-flash-fill"></i></a>School of Electrical Engineering</p>
+              <p><a href=""><i class="ri-tools-fill"></i></a>School of Mechanical Engineering</p>
+              <p><a href=""><i class="ri-team-fill"></i></a>School of Humanities</p>
+              <p><a href=""><i class="ri-global-fill"></i></a>School of Languages</p>
+              <p><a href=""><i class="ri-pencil-ruler-fill"></i></a>School of Architecture and planning</p>
+            </div>
+
+            <div>
+              <p><a href=""><i class="ri-temp-cold-fill"></i></a>School of Biotechnology</p>
+              <p><a href=""><i class="ri-store-3-fill"></i></a>School of Management</p>
+              <p><a href=""><i class="ri-medicine-bottle-fill"></i></a>School of Medicine(KIMS)</p>
+              <p><a href=""><i class="ri-group-3-fill"></i></a>School of Rular Management</p>
+              <p><a href=""><i class="ri-video-chat-fill"></i></a>School of Flim & Human Science</p>
+              <p><a href=""><i class="ri-baidu-fill"></i></a>Law School</p>
+              <p><a href=""><i class="ri-bank-fill"></i></a> Social,Financial & Human Science</p>
+              <p><a href=""><i class="ri-user-5-fill"></i></a> School of Fashion Technology</p>
+              <p><a href=""><i class="ri-video-chat-fill"></i></a>School of Mass Communication</p>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- usefull links -->
+
+
+<section class="last">
+  <h1>Usefull Links</h1>
+  <div class="row">
+    <div class="heading">
+      <h2>Quick Links</h2>
+      <ul class="quicklink">
+        <li><a href="project.html">Home</a></li>
+        <li><a href="About_us.html">About Us</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="heading">
+      <h2>Faculty & Staff</h2>
+      <ul class="quicklink">
+        <li><a href="#">Curricula</a></li>
+        <li><a href="#">Calendra</a></li>
+        <li><a href="#">Programmes</a></li>
+        <li><a href="#">Faculty & Staff Portal</a></li>
+        <li><a href="#">Information for Visiting faculty</a></li>
+        <li><a href="#">WorkFlow Portal</a></li>
+      </ul>
+    </div>
+    <div class="heading">
+    <h2>Student Section</h2>
+        <ul class="quicklink">
+          <li><a href="#">Result</a></li>
+          <li><a href="#">pay fee</a></li>
+          <li><a href="#">Training</a></li>
+          <li><a href="#">placement</a></li>
+          <li><a href="#">Scholarship & Assistance</a></li>
+          <li><a href="#">Research program</a></li>
+        </ul>
+      </div>
+      <div class="heading">
+      <h2>Get In Touch</h2>
+      <ul class="get-in-touch">
+        <li> <a href=""><i class="ri-mail-line"></i></a>E-MAIL:<a href="#">Presidency@gmail.com</a></li>
+        <li> <a href=""><i class="ri-whatsapp-line"></i></a>WHATS-APP:<a href="#">+977 9869999925</a></li>
+        <li> <a href=""><i class="ri-contacts-line"></i></a>CONTACT NO:<a href="#">+91 8667030751</a></li>
+        <li> <a href=""><i class="ri-pages-line"></i></a>WEBSITE:<a href="#">https://www.Presidency.com</a></li>
+        <li> <a href=""><i class="ri-instagram-line"></i></a>INSTAGRAM:<a href="#">www.instagram.com</a></li>
+        <li> <a href=""><i class="ri-facebook-box-line"></i></a>FACEBOOK:<a href="#">www.facebook.com</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+
+</section>
+
+  <section class="foot">
+    <footer>
+    Copyright © 2024 Presidency Institute of Industrial Technology | koteshwor | Kathmandu
+    </footer> 
+  </section>
+
+
+      
+</body>
+</html>
